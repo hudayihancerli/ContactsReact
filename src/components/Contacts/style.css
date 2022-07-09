@@ -1,0 +1,56 @@
+#container {
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 0;
+    margin: 4px;
+    outline: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactsNavbar {
+    background-color: rgb(221, 163, 86);
+    color: beige;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+button {
+    width: 100px;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 8px 8px;
+    background-color: rgb(181, 212, 240);
+    border: 1px solid rgb(243, 248, 241);
+    transition: 500ms;
+}
+
+button:hover {
+    padding: 16px;
+    background-color: rgb(221, 163, 86);
+
+}
